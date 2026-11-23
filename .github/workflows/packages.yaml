@@ -28,5 +28,9 @@ jobs:
       - name: Build Maven Project
         run: mvn clean package -DskipTests
 
+      - name: list
+        run: ls
+        
+
 
       
