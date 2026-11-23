@@ -37,7 +37,7 @@ jobs:
 
       - name: Upload JAR to JFrog
         env:
-          JFROG_USER: ${{ secrets.JFROG_USER }}
+          JFROG_USER: ${{ secrets.JFROG_USERID }}
           JFROG_PASSWORD: ${{ secrets.JFROG_PASSWORD }}
         run: |
           curl --fail --show-error --silent \
